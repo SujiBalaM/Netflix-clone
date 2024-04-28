@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.imagecontainer {
+  display: flex;
+  overflow-x: scroll;
+}
+.imagecontainer::-webkit-scrollbar {
+  display: none;
+}
+img{
+  margin: 5px;
+  /* transition: ; */
+}
+img:hover {
+  transform: scale(1.1,1.1);
+  transition-property: transform;
+  transition-duration: 1s;
+}
